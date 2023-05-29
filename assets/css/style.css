@@ -1,8 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    text-align: center;
-    align-items: center;
 
 }
 
@@ -10,7 +8,20 @@ body {
     background-image: url("../images/background.jpg");
     background-color: blanchedalmond;
     height: 1200px;
+    Width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: red;
+    height: 400px;
+    width: 600px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+
 }
