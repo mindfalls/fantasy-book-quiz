@@ -48,7 +48,13 @@ const  lotr = [
 
 ]
 
+let quizOne = document.getElementById("quizone")
 
+let quizTwo = document.getElementById("quiztwo")
+
+let quizThree = document.getElementById("quizthree")
+
+quizOne.addEventListener('click',startGame)
 
 function startGame() {
 
