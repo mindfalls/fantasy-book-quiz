@@ -54,20 +54,50 @@ let quizTwo = document.getElementById("quiztwo")
 
 let quizThree = document.getElementById("quizthree")
 
+let quizFour = document.getElementById("quizfour")
+
 quizOne.addEventListener('click',startGame)
+quizTwo.addEventListener('click',startGame)
+quizThree.addEventListener('click',startGame)
+let questionElement = document.getElementById("question")
+let shuffledQuestions , currentQuestionIndex;
+let answerButtonsElement = document.getElementById("answer-buttons")
+
 
 function startGame() {
+quizFour.classList.remove("hide")
+shuffledQuestions = lotr.sort(() => Math.random() - .5);
+currentQuestionIndex = 0
+setQuestion()
+}
+
+function setQuestion() {
+    question = document.getElementById("question")
+    question.classList.remove("hide")
+    showQuestion(shuffledQuestions[currentQuestionIndex])
 
 }
-function showQuestion() {
-    
+
+function showQuestion(question) {
+questionElement.innerText = question.question
+question.answers.forEach(answer => {
+    const button = document.createElement('button')
+    button.innerText = answer.text
+    button.classList.add('btn')
+
+    if (answer.correct) {
+        button.dataset.correct = answer.correct
+    }
+    button.addEventListener('click',selectAnswer)
+    answerButtonsElement.appendChild(button)
+})
 }
 
 function nextQuestion() {
 
 }
 
-function selectAnswer() {
+function selectAnswer(event) {
 
 }
 

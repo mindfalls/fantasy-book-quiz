@@ -25,7 +25,7 @@ body {
     margin-top: 50px;
 
 }
-.controls {
+#controls {
     display: flex;
     justify-content: center;
     flex-direction: column;
