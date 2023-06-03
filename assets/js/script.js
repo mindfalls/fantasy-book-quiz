@@ -65,15 +65,18 @@ let answerButtonsElement = document.getElementById("answer-buttons")
 
 
 function startGame() {
-quizFour.classList.remove("hide")
-shuffledQuestions = lotr.sort(() => Math.random() - .5);
-currentQuestionIndex = 0
-setQuestion()
+    quizOne.classList.add("hide")
+    quizTwo.classList.add("hide")
+    quizThree.classList.add("hide")
+    shuffledQuestions = lotr.sort(() => Math.random() - .5);
+    currentQuestionIndex = 0
+    setQuestion()
 }
 
 function setQuestion() {
     question = document.getElementById("question")
     question.classList.remove("hide")
+    resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
 
 }
@@ -96,7 +99,11 @@ question.answers.forEach(answer => {
 function nextQuestion() {
 
 }
-
+function resetState() {
+    while (answerButtonsElement.firstChild) {
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild)
+    }
+}
 function selectAnswer(event) {
 
 }
