@@ -20,8 +20,8 @@ const  lotr = [
     {
         question: "How many rings for the Dwarves?",
         answers: [
-            {text: "3",correct: true},
-            {text: "7",correct: false},
+            {text: "3",correct: false},
+            {text: "7",correct: true},
             {text: "9",correct: false},
             {text: "4",correct: false},
         ]
@@ -38,9 +38,9 @@ const  lotr = [
     {
         question: "Who carries Frodo to Rivendell?",
         answers: [
-            {text: "Gandalf",correct: true},
+            {text: "Gandalf",correct: false},
             {text: "Arwen",correct: false},
-            {text: "Glorfindel",correct: false},
+            {text: "Glorfindel",correct: true},
             {text: "Aragorn",correct: false},
         ]
     },
@@ -54,7 +54,7 @@ let quizTwo = document.getElementById("quiztwo")
 
 let quizThree = document.getElementById("quizthree")
 
-let quizFour = document.getElementById("quizfour")
+let nextButton = document.getElementById("next-button")
 
 quizOne.addEventListener('click',startGame)
 quizTwo.addEventListener('click',startGame)
@@ -63,6 +63,10 @@ let questionElement = document.getElementById("question")
 let shuffledQuestions , currentQuestionIndex;
 let answerButtonsElement = document.getElementById("answer-buttons")
 
+nextButton.addEventListener('click', () => {
+    currentQuestionIndex++
+    setQuestion()
+  })
 
 function startGame() {
     quizOne.classList.add("hide")
@@ -104,10 +108,14 @@ function resetState() {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
     }
 }
-function selectAnswer(event) {
 
-}
-
-function incrementScore() {
-
-}
+function selectAnswer(e) { 
+        const selectedButton = e.target;
+        const isCorrect = selectedButton.dataset.correct === "true";
+      
+        if (isCorrect) { // Selected button will turn green or red according to class styling
+          selectedButton.classList.add("correct");}
+          else {
+            selectedButton.classList.add("incorrect");
+             }
+        }

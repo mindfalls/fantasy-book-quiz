@@ -6,7 +6,6 @@ body {
 
 .background {
     background-image: url("../images/background.jpg");
-    background-color: blanchedalmond;
     height: 1200px;
     Width: 100%;
     background-position: center;
@@ -16,7 +15,7 @@ body {
     justify-content: center;
 }
 .container {
-    background-color: red;
+    background-color: antiquewhite;
     height: 400px;
     width: 600px;
     border-radius: 25px;
@@ -25,7 +24,7 @@ body {
     margin-top: 50px;
 
 }
-#controls {
+#answer-buttons {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -42,4 +41,14 @@ body {
 }
 .hide {
     display: none;
+}
+
+.correct {
+    color:black !important;
+    background-color: rgba(0, 128, 0, 0.5) !important
+}
+
+.incorrect {
+    color:black !important;
+    background-color: rgba(255, 0, 0, 0.5) !important;
 }
