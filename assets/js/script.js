@@ -62,13 +62,14 @@ quizThree.addEventListener('click',startGame)
 let questionElement = document.getElementById("question")
 let shuffledQuestions , currentQuestionIndex;
 let answerButtonsElement = document.getElementById("answer-buttons")
-
+let pickquiz = document.getElementById("pick-quiz")
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
     setQuestion()
   })
 
 function startGame() {
+    pickquiz.classList.add("hide")
     quizOne.classList.add("hide")
     quizTwo.classList.add("hide")
     quizThree.classList.add("hide")
@@ -106,6 +107,7 @@ function nextQuestion() {
 function resetState() {
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
+        nextButton.classList.add("hide")
     }
 }
 
@@ -114,8 +116,15 @@ function selectAnswer(e) {
         const isCorrect = selectedButton.dataset.correct === "true";
       
         if (isCorrect) { // Selected button will turn green or red according to class styling
-          selectedButton.classList.add("correct");}
+          selectedButton.classList.add("correct");
+          nextButton.classList.remove("hide");
+        addScore()}
           else {
             selectedButton.classList.add("incorrect");
+            nextButton.classList.remove("hide");
              }
         }
+function addScore() {       
+        let oldScore = parseInt(document.getElementById("score").innerText);
+        document.getElementById("score").innerText = ++oldScore +"/5";
+    }
