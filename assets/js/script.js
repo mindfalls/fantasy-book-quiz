@@ -1,3 +1,51 @@
+const locke = [
+    {question: "In what district was Locke born?",
+     answers: [
+        {text: "Catchfire", correct: true},
+        {text: "Shades Hill",correct: false},
+        {text: "The Cauldron",correct: false},
+        {text: "The Narrows",correct:false}
+
+     ]
+    },
+    {question: "Who was the first 'Garrista' of the Gentlemen Bastards?",
+    answers: [
+       {text: "Locke Lamora", correct: false},
+       {text: "Father Chains",correct: true},
+       {text: "Barsavi",correct: false},
+       {text: "Nicovante",correct:false}
+
+    ]
+   },
+   {question: "What is Locke's master merchant alias?",
+   answers: [
+      {text: "Leocanto Costa", correct: false},
+      {text: "Tavrinn Callas",correct: false},
+      {text: "Lucas Fehrwight",correct: true},
+      {text: "Jerome Valora",correct:false}
+
+   ]
+  },
+  {question: "What is Jean Tannen's middle name?",
+  answers: [
+     {text: "Bruce", correct: false},
+     {text: "Carlos",correct: false},
+     {text: "Estevan",correct: true},
+     {text: "Orrin",correct:false}
+
+  ]
+ },
+ {question: "The spider is what?",
+ answers: [
+    {text: "A garrista", correct: false},
+    {text: "A fence",correct: false},
+    {text: "Secret Police",correct: true},
+    {text: "Name of a Tavern",correct:false}
+
+ ]
+},
+]
+
 const  lotr = [
     {
         question: "Frodo is Bilbo's?",
@@ -57,8 +105,8 @@ let quizThree = document.getElementById("quizthree")
 let nextButton = document.getElementById("next-button")
 
 quizOne.addEventListener('click',startGame)
-quizTwo.addEventListener('click',startGame)
-quizThree.addEventListener('click',startGame)
+quizTwo.addEventListener('click',startGameTwo)
+quizThree.addEventListener('click',startGameThree)
 let questionElement = document.getElementById("question")
 let shuffledQuestions , currentQuestionIndex;
 let answerButtonsElement = document.getElementById("answer-buttons")
@@ -77,6 +125,25 @@ function startGame() {
     quizTwo.classList.add("hide")
     quizThree.classList.add("hide")
     shuffledQuestions = lotr.sort(() => Math.random() - .5);
+    currentQuestionIndex = 0
+    setQuestion()
+}
+
+function startGameTwo() {
+    pickquiz.classList.add("hide")
+    quizOne.classList.add("hide")
+    quizTwo.classList.add("hide")
+    quizThree.classList.add("hide")
+    shuffledQuestions = locke.sort(() => Math.random() - .5);
+    currentQuestionIndex = 0
+    setQuestion()
+}
+function startGameThree() {
+    pickquiz.classList.add("hide")
+    quizOne.classList.add("hide")
+    quizTwo.classList.add("hide")
+    quizThree.classList.add("hide")
+    shuffledQuestions = locke.sort(() => Math.random() - .5);
     currentQuestionIndex = 0
     setQuestion()
 }
