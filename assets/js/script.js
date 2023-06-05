@@ -123,6 +123,12 @@ function selectAnswer(e) {
             selectedButton.classList.add("incorrect");
             nextButton.classList.remove("hide");
              }
+             Array.from(answerButtonsElement.children).forEach(button => {
+                if(button.dataset.correct === "true") {
+                    button.classList.add("correct");
+                }
+                button.disabled = true
+             })
         }
 function addScore() {       
         let oldScore = parseInt(document.getElementById("score").innerText);
