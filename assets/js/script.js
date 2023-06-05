@@ -64,8 +64,11 @@ let shuffledQuestions , currentQuestionIndex;
 let answerButtonsElement = document.getElementById("answer-buttons")
 let pickquiz = document.getElementById("pick-quiz")
 nextButton.addEventListener('click', () => {
+    if (shuffledQuestions.length > currentQuestionIndex +1){
     currentQuestionIndex++
-    setQuestion()
+    setQuestion()}
+    else { finalScore()
+    }
   })
 
 function startGame() {
@@ -134,3 +137,17 @@ function addScore() {
         let oldScore = parseInt(document.getElementById("score").innerText);
         document.getElementById("score").innerText = ++oldScore +"/5";
     }
+function finalScore() {
+    let finalScore = document.getElementById("final-score")
+    finalScore.innerText = ("Final Score")
+    resetState()
+    let question = document.getElementById("question")
+    question.classList.add("hide")
+    let reset = document.getElementById("reset")
+    reset.classList.remove("hide")
+    reset.addEventListener('click', () => {
+        window.location.reload()
+    })
+   
+}
+
