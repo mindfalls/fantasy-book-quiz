@@ -1,3 +1,4 @@
+// Question Arrays:
 const firstLaw = [
     {question: "What is the first Law?",
      answers: [
@@ -168,7 +169,7 @@ nextButton.addEventListener('click', () => {
     else { finalScore()
     }
   })
-
+// Functions to start the game and set the quiz that was clicked
 function startGame() {
     pickquiz.classList.add("hide")
     quizOne.classList.add("hide")
@@ -200,7 +201,7 @@ function startGameThree() {
     currentQuestionIndex = 0
     setQuestion()
 }
-
+// Sets the question in a random order
 function setQuestion() {
     question = document.getElementById("question")
     question.classList.remove("hide")
@@ -224,9 +225,6 @@ question.answers.forEach(answer => {
 })
 }
 
-function nextQuestion() {
-
-}
 function resetState() {
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
@@ -237,8 +235,9 @@ function resetState() {
 function selectAnswer(e) { 
         const selectedButton = e.target;
         const isCorrect = selectedButton.dataset.correct === "true";
-      
-        if (isCorrect) { // Selected button will turn green or red according to class styling
+
+       // Selected button will turn green or red according to class styling
+        if (isCorrect) {
           selectedButton.classList.add("correct");
           nextButton.classList.remove("hide");
         addScore()}
@@ -253,10 +252,12 @@ function selectAnswer(e) {
                 button.disabled = true
              })
         }
+        //Increments the score
 function addScore() {       
         let oldScore = parseInt(document.getElementById("score").innerText);
         document.getElementById("score").innerText = ++oldScore +"/5";
     }
+    // sets the final score and reveals the reset button to go back to th start
 function finalScore() {
     let finalScore = document.getElementById("final-score")
     finalScore.innerText = ("Final Score")

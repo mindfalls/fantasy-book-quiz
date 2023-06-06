@@ -142,14 +142,12 @@ colors were picke
 
 ### Fonts
 
-Google fonts were used to import the 'Martian Mono and Nunito Sans' font used throughout the website:
+Google fonts was used to import the Medieval Sharp font since it goes well with the medival fantasy settings for the books
 
 [Mogra](https://fonts.google.com/specimen/Mogra?query=mog&preview.text=mogra&preview.text_type=custom)
 
 [Lato](https://fonts.google.com/specimen/Lato?query=lato)
 
-Mogra is used for the headers.
-Lato is used for all other text since it makes it easier to read
 
 
 ### Wireframes
