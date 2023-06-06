@@ -1,4 +1,5 @@
 # Fantasy book quiz
+[Live webpage](https://mindfalls.github.io/fantasy-book-quiz/)
 
 Developer : Mattias Lundkvist
 
@@ -73,7 +74,7 @@ The goal of this website is to attract individuals , who have read the books and
 ### Site Owner
 
 
-11. As a site owner, I want to test peoples knowledge about the books
+5. As a site owner, I want to test peoples knowledge about the books
 
 
 ## Features
@@ -133,7 +134,7 @@ The specific colours I used on the site are as follows:
 2.	White: #FFFFF0
 3.	Red: #c50822
 
-colors were picke
+colors were picked
 
 ### Fonts
 
@@ -196,7 +197,7 @@ All tests returned no errors
 
 All tests returned no errors
 
-
+[Link](https://wave.webaim.org/report#/https://mindfalls.github.io/fantasy-book-quiz/)
 Index 
 
 ## Performance
@@ -205,7 +206,7 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 index : 
 
-<img src="docs/lighthouse/index-test.png">
+<img src="docs/lighthouse/lighthouse-test.png">
 
 
 
@@ -390,7 +391,7 @@ The website was deployed using GitHub Pages by following these steps:
 3. For the source select Branch: master
 4. After the webpage refreshes automatically you will see a ribbon on the top saying: Your site is live at
 
-https://mindfalls.github.io/fairfight-muay-thai/
+https://mindfalls.github.io/fantasy-book-quiz/
 
 You can for fork the repository by following these steps:
 
