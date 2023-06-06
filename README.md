@@ -43,20 +43,16 @@ To make a small webpage wit a few short quizzes
 
 ## Project goal
 
-The goal of this website is to attract individuals , ages six (6) and above, of different genders, with or without Muay Thai experience, and who wants to try a unique and fun way of keeping fit. The aim is to design a fully functional website that is user-friendly and can be easily accessed on all devices.
+The goal of this website is to attract individuals , who have read the books and want to test their knowledge. The aim is to design a fully functional website that is user-friendly and can be easily accessed on all devices
 
 ## User Experience
 
-- Ages 6 and up.
-- Anyone who is interested to learn Muay Thai and get fit.
-- All levels and abilities welcome.
+- people who wants to test their knowledge of the books
 
 ### User requirements and expectations
 
 - An easily navigable website.
-- Links works as expected.
 - Good presentation and a visually appealing design regardless of screen size.
-- An easy way to contact the gym.
 - Simple content that the user can skim read.
 
 
@@ -65,56 +61,35 @@ The goal of this website is to attract individuals , ages six (6) and above, of 
 ### First-Time Users
 
 
-1. As a first-time user, I would like to know straight away which city the gym is located.
+1. As a first-time user, I would like to have a short quiz about The lord of the rings books
 
-2. As a first-time user, I would like to know a little history and background information about Muay Thai.
+2. As a first-time user, I would like to have a short quiz about The Lies of Locke Lamora books
 
-3. As a first-time user, I would like to easily contact the gym for more information.
+3. As a first-time user, I would like to have a short quiz about The first Law triology books
 
-4. As a first-time user, I would like to know more about the trainers.
+4. As a first-time user, I would like to keep track of my score easily
 
-5. As a first-time user, I would like to be able to easily find the contact information such as phone and email and the complete address of the gym.
-
-6. As a first-time user, I would like to see the membership prices and weekly schedules.
-
-7. As a first-time user, I would like to be able to locate the gym easily.
-
-### Returning Users
-
-
-8. As a returning user, I would like to be able to contact the gym easily if I need more information.
-
-9. As a returning user, I would like to be able to see the weekly schedules and the different classes offered.
-
-10. As a returning user, I would like to find the gym on different social media sites.
 
 ### Site Owner
 
 
-11. As a site owner, I want my users to be able to locate the gym easily.
+11. As a site owner, I want to test peoples knowledge about the books
 
-12. As a site owner, I want my users to be able to find the gym’s contact details and complete address easily.
-
-13. As a site owner, I would like my users to be able to contact us for more information.
-
-14. As a site owner, I would like the membership prices, schedules, and different training classes to be readily available for our users.
-
-15. As a site owner, I would like my users to know who our trainers are.
 
 ## Features
 
 
 
-#### Navigation bar
+#### Lord of the Rings quiz
 
-The site will provide easy access and user friendly tabs which will instantly open and will direct the user to the Homepage, the schedules, and the contact details with just one click. These will be found on the header of all pages to access the different pages without the user having to click back.
-
+There is a short quiz of 5 questions about The Lord of the Rings Books 
 <img src="docs/features/nav-bar.png">
 
 
-#### The Landing Page
+#### The First Law
 
-The main page includes a photograph of a Muay Thai fighter giving his respects as part of the pre-fight ritual. It also includes a text overlay of the gym location and the three main values which the gym aims to emulate to its members.
+A short quiz about The First Law books is 
+
 
 <img src="docs/features/hero.png">
 
