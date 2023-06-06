@@ -182,12 +182,13 @@ WAVE Web Accessibility Evaluation Tool is used to test accesibility function.
 
 All tests returned no errors
 
-
+[Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmindfalls.github.io%2Ffantasy-book-quiz%2F)
 
 ## CSS Validation
 
 All tests returned no errors
 
+[Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmindfalls.github.io%2Ffantasy-book-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 
@@ -206,17 +207,7 @@ index :
 
 <img src="docs/lighthouse/index-test.png">
 
-schedule : 
 
-<img src="docs/lighthouse/schedule-test.png">
-
-contact : 
-
-<img src="docs/lighthouse/contact-test.png">
-
-404 :
-
-<img src="docs/lighthouse/404-test.png">
 
 ### Performing tests on various devices 
 
