@@ -132,11 +132,6 @@ The specific colours I used on the site are as follows:
 1.	Black: black
 2.	White: #FFFFF0
 3.	Red: #c50822
-4.	Blue: #1475e4
-5.	Golden Rod: goldenrod
-6.  Facebook blue icon: #3b5998
-7.	Instagram purple icon: #962fbf
-8.	Twitter blue icon: #1475e4
 
 colors were picke
 
@@ -144,9 +139,7 @@ colors were picke
 
 Google fonts was used to import the Medieval Sharp font since it goes well with the medival fantasy settings for the books
 
-[Mogra](https://fonts.google.com/specimen/Mogra?query=mog&preview.text=mogra&preview.text_type=custom)
-
-[Lato](https://fonts.google.com/specimen/Lato?query=lato)
+[Mogra]
 
 
 
@@ -164,6 +157,7 @@ Google fonts was used to import the Medieval Sharp font since it goes well with 
 
 - HTML
 - CSS
+- JavaScript
 
 ### Tools
 
@@ -188,35 +182,21 @@ WAVE Web Accessibility Evaluation Tool is used to test accesibility function.
 
 All tests returned no errors
 
-index : [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmindfalls.github.io%2Ffairfight-muay-thai%2F)
 
-Schedule : [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmindfalls.github.io%2Ffairfight-muay-thai%2Fschedule.html)
-
-Contact : [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmindfalls.github.io%2Ffairfight-muay-thai%2Fcontact.html)
-
-404 : [Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmindfalls.github.io%2Ffairfight-muay-thai%2F404.html)
 
 ## CSS Validation
 
 All tests returned no errors
 
 
-Index : [Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmindfalls.github.io%2Ffairfight-muay-thai%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-Schedule : [Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmindfalls.github.io%2Ffairfight-muay-thai%2Fschedule.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
-Contact : [Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmindfalls.github.io%2Ffairfight-muay-thai%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Accessibility testing
 
 All tests returned no errors
 
 
-Index : [Link](https://wave.webaim.org/report#/https://mindfalls.github.io/fairfight-muay-thai/)
-
-Schedule : [Link](https://wave.webaim.org/report#/https://mindfalls.github.io/fairfight-muay-thai/schedule.html)
-
-Contact : [Link](https://wave.webaim.org/report#/https://mindfalls.github.io/fairfight-muay-thai/contact.html)
+Index 
 
 ## Performance
 
@@ -440,13 +420,12 @@ You can clone the repository by following these steps:
 
 ## Credits
 
-- Text contents for the Short description of Muay Thai including photograph was taken from 
-https://eu.yokkao.com/pages/what-is-muay-thai 
 
-- Media
 
-¤ All other photos used in the website are owned by Athit and Sandra Praditphon
+
+
+
 
 ## Acknowledgements
 
-My mentor Mo Shami for his expertise and guidance. Could not have done this without you.
+
