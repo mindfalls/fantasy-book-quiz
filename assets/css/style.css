@@ -45,7 +45,7 @@ body {
 .hide {
     display: none;
 }
-
+/* correct and incorrect to set the color to grren o red depending on which was clicked */
 .correct {
     color:black !important;
     background-color: rgba(0, 128, 0, 0.5) !important
