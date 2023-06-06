@@ -6,7 +6,7 @@ Developer : Mattias Lundkvist
 
 
 ## Subject 
-To make a small webpage wit a few short quizzes
+To make a small webpage with a few short quizzes
 
 <img src="docs/responsive-screen.png">
 
@@ -86,107 +86,46 @@ There is a short quiz of 5 questions about The Lord of the Rings Books
 <img src="docs/features/nav-bar.png">
 
 
-#### The First Law
+#### The First Law quiz
 
-A short quiz about The First Law books is 
+A short quiz about The First Law books is availebla to the user
 
 
 <img src="docs/features/hero.png">
 
 
-#### Short description of Muay Thai
+#### Locke Lamora quiz
 
-This section gives the user a brief history and introduction about what the sport is all about and all this information is provided as a text overlay. It includes a photograph of the traditional Muay Thai techniques.
-Also included is a link to the schedules.
+A short quiz about the Locke Lamora books to test the users knowledge
 
 <img src="docs/features/intro-text.png">
 
 
-#### The Trainers
+#### Correct/Incorrect
 
-The user can find the name and photo of the trainers with brief introductions about their Muay Thai experiences.
+Clicking the right answer will highlight the answer in green and reveal a next button.
+Also clicking the wrong answer will highlight the wrong answer in red and also the right answer in green.
+
+
 
 <img src="docs/features/trainers.png">
 
 
-#### Map
+#### Next Button
 
-The user is provided with an interactive map which points out the exact location of the gym. This is very helpful especially for first time users who are not familiar with the gym location.
+Clicking the next button will take you to the next question, or reveal your final score
 
-<img src="docs/features/map.png">
-
-
-#### Footer
-
-The user is provided with the different relevant social media platforms, which when clicked, will open to a new tab. This will make the navigation easier for the user.
-
-Also included is th contact information such as the phone number, email address, and the physical address.
-
-<img src="docs/features/footer.png">
-
-
-#### Schedule 
-
-The user is provided a table showing the various training times and days of the week and for which levels or classes.
-
-<img src="docs/features/schedule.png">
-
-
-#### Classes
-
-This shows the user the different types of Muay Thai classes provided in the gym. Under each class is a short description that gives the user an idea what to expect and who are included in those classes.
-
-<img src="docs/features/classes.png">
-
-
-#### Membership prices
-
-Here, the user can see some of the different membership prices provided as well as a link to the contact details for more information regarding price and payment options.
-
-<img src="docs/features/membership.png">
-
-
-#### Contact Us
-
-This provides an easy way of getting in touch with the gym by filling out the online form with the relevant information needed and clicking "Submit" to send the message.
-
-<img src="docs/features/contact.png">
-
-
-#### Additional Photo section 
-
-Just below the "Send us a message" part is an additional photograph showing some of the trainers in their victory pose.
-
-<img src="docs/features/contact-photo.png">
-
-#### 404 Page
-
-Added a custom 404 page for fun.
-
-<img src="docs/features/404.png">
+<img src="docs/features/map.png"
 
 
 ## Design
 
 ### Layout
 
-I specifically chose this simple yet slick lay out because it matches the theme of the gym, simple, very straightforward and all about Muay Thai.
+A simple Layout with a fantasy inspired picture as a background and a squarecontainer to hold the quiz
 
 ### Colours
 
-The name itself, Fairfight Muay Thai gym, focuses only on Muay Thai so all the colours I used are those that are heavily connected to the sport.
-
-I went with a black and white background because it symbolizes fairness and equality in sports and the new official fights have introduced black and white corners in the ring instead of the red and blue corners. 
-
-This colour combination is also very easy on the eyes.
-
-Red is a very prominent and fierce colour that is very commonly used in Muay Thai. On black background, it stands out more which is perfect for the title.
-
-Blue is another dominant colour used in Muay Thai and it is also very subtle and soft on the eyes. 
-
-I also added the Golden Rod colour which works well with the dark background.
-
-Additional colours used are for the social media icons in the site.
 
 The specific colours I used on the site are as follows:
 
@@ -199,7 +138,7 @@ The specific colours I used on the site are as follows:
 7.	Instagram purple icon: #962fbf
 8.	Twitter blue icon: #1475e4
 
-All colours were taken from style css color picker and I tested them several times before settling for the right shade.
+colors were picke
 
 ### Fonts
 
