@@ -152,6 +152,8 @@ let quizThree = document.getElementById("quizthree")
 
 let nextButton = document.getElementById("next-button")
 
+let intro = document.getElementById("intro")
+
 quizOne.addEventListener('click',startGame)
 quizTwo.addEventListener('click',startGameTwo)
 quizThree.addEventListener('click',startGameThree)
@@ -172,6 +174,7 @@ function startGame() {
     quizOne.classList.add("hide")
     quizTwo.classList.add("hide")
     quizThree.classList.add("hide")
+    intro.classList.add("hide")
     shuffledQuestions = lotr.sort(() => Math.random() - .5);
     currentQuestionIndex = 0
     setQuestion()
@@ -182,6 +185,7 @@ function startGameTwo() {
     quizOne.classList.add("hide")
     quizTwo.classList.add("hide")
     quizThree.classList.add("hide")
+    intro.classList.add("hide")
     shuffledQuestions = firstLaw.sort(() => Math.random() - .5);
     currentQuestionIndex = 0
     setQuestion()
@@ -191,6 +195,7 @@ function startGameThree() {
     quizOne.classList.add("hide")
     quizTwo.classList.add("hide")
     quizThree.classList.add("hide")
+    intro.classList.add("hide")
     shuffledQuestions = locke.sort(() => Math.random() - .5);
     currentQuestionIndex = 0
     setQuestion()

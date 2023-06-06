@@ -1,11 +1,12 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "MedievalSharp",sans-serif;
 
 }
 
 .background {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.webp");
     height: 1200px;
     Width: 100%;
     background-position: center;
@@ -16,13 +17,14 @@ body {
 }
 .container {
     background-color: antiquewhite;
-    height: 400px;
+    height: 450px;
     width: 600px;
+    max-width: 90%;
     border-radius: 25px;
     text-align: center;
     padding-top: 50px;
     margin-top: 50px;
-
+ 
 }
 #answer-buttons {
     display: flex;
@@ -37,7 +39,7 @@ body {
     border-radius: 5px;
 }
 .btn:hover {
-    background-color: antiquewhite;
+    background-color: #FFFBF5;
 }
 .hide {
     display: none;
