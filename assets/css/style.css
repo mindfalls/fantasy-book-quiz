@@ -2,8 +2,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: "MedievalSharp",sans-serif;
-
 }
+
 
 .background {
     background-image: url("../images/background.webp");
@@ -15,11 +15,12 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .container {
     background-color: antiquewhite;
     height: 450px;
     width: 600px;
-    max-width: 90%;
+    max-width: 80%;
     border-radius: 25px;
     text-align: center;
     padding-top: 50px;
@@ -53,4 +54,17 @@ body {
 .incorrect {
     color:black !important;
     background-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+/* Media queries*/
+
+@media only screen and (max-height: 600px) {
+    .background {
+    height: 600px;
+}
+}
+@media only screen and (max-height: 1024px) {
+    .background {
+    height: 1024px;
+}
 }
