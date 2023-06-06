@@ -1,3 +1,51 @@
+const firstLaw = [
+    {question: "What is the first Law?",
+     answers: [
+        {text: "Forbidden to eat flesh", correct: false},
+        {text: "Forbidden to touch the other side",correct:true},
+        {text: "Forbidden to alter reality",correct: false},
+        {text: "Forbidden to use magic on others",correct:false}
+
+     ]
+    },
+    {question: "Logen often says 'You've got to be ______ about these things'",
+    answers: [
+       {text: "Optimistic", correct: false},
+       {text: "Realistic",correct: true},
+       {text: "Open minded",correct: false},
+       {text: "Truthful",correct:false}
+
+    ]
+   },
+   {question: "Cosca's favourite thing is?",
+   answers: [
+      {text: "Women", correct: false},
+      {text: "Money",correct: false},
+      {text: "Freedom",correct: false},
+      {text: "Wine",correct:true}
+
+   ]
+  },
+  {question: "Who is the best scout in the North?",
+  answers: [
+     {text: "Logen", correct: false},
+     {text: "Rudd Threetrees",correct: false},
+     {text: "Dogman",correct: true},
+     {text: "Black Dow",correct:false}
+
+  ]
+ },
+ {question: "How many were the original magi?",
+ answers: [
+    {text: "10", correct: false},
+    {text: "18",correct: false},
+    {text: "20",correct: false},
+    {text: "12",correct:true}
+
+ ]
+},
+]
+
 const locke = [
     {question: "In what district was Locke born?",
      answers: [
@@ -134,7 +182,7 @@ function startGameTwo() {
     quizOne.classList.add("hide")
     quizTwo.classList.add("hide")
     quizThree.classList.add("hide")
-    shuffledQuestions = locke.sort(() => Math.random() - .5);
+    shuffledQuestions = firstLaw.sort(() => Math.random() - .5);
     currentQuestionIndex = 0
     setQuestion()
 }
