@@ -70,11 +70,12 @@ The goal of this website is to attract individuals , who have read the books and
 
 4. As a first-time user, I would like to keep track of my score easily
 
+5. As a first-time user, I would like to know which answer is correct
 
 ### Site Owner
 
 
-5. As a site owner, I want to test peoples knowledge about the books
+6. As a site owner, I want to test peoples knowledge about the books
 
 
 ## Features
@@ -118,6 +119,9 @@ Clicking the next button will take you to the next question, or reveal your fina
 
 <img src="docs/features/map.png"
 
+#### Score Counter
+
+Answering a question will increase the score for a maximum of five
 
 ## Design
 
@@ -243,140 +247,51 @@ The website was tested on the following browsers:
 
 <details><summary></summary><img src="docs/userstories/user-story1.png"></details>
 
-2. As a first-time user, I would like to know a little history and background information about Muay Thai.
+2. As a first-time user, I would like to have a short quiz about The Lies of Locke Lamora books
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Short description of Muay Thai| On index page scroll down to find information| Displays short information about history of Muay Thai| Works as expected |
+| Locke Lamora quiz| Click Locke Lamora button| Starts Locke Lamora quiz| Works as expected |
 
 <details><summary></summary><img src="docs/userstories/user-story2.png"></details>
 
-3. As a first-time user, I would like to easily contact the gym for more information.
+3. As a first-time user, I would like to have a short quiz about The first Law triology books
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation Bar| Click Contact Us link| Brings user to contact page| Works as expected |
-| Footer| On any page, scroll down to footer| In the footer is phone number, and email address| Works as expected |
+|First Law quiz| Click First Law button| Starts First Law Quiz| Works as expected |
+
 
 <details><summary></summary><img src="docs/userstories/user-story3.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story3-1.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story3-3.png"></details>
 
-4. As a first-time user, I would like to know more about the trainers.
+
+4. As a first-time user, I would like to keep track of my score easily
+
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| The Trainers| On index page, scroll down to find information| User will find photo, name, and short presentation of trainers| Works as expected |
+|Score Counter | Answer any question| Answering a question with the right answer will increase the score| Works as expected |
 
 <details><summary></summary><img src="docs/userstories/user-story4.png"></details>
 
-5. As a first-time user, I would like to be able to easily find the contact information such as phone and email and the complete address of the gym.
+5. As a first-time user, I would like to know which answer is correct
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Footer| On any page, scroll down to footer| on footer is phone number, and email address| Works as expected |
+| Correct/Incorrect| Click any answer| Right answer will highlight as green wrong answer as red | Works as expected |
 
 <details><summary></summary><img src="docs/userstories/user-story5.png"></details>
 
-6. As a first-time user, I would like to see the membership prices and weekly schedules.
+### Site owner
+
+6. As a site owner, I want to test peoples knowledge about the books
+
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation Bar| Click Schedule link| Brings user to schedule page| Works as expected |
+| All quizzes| Click any quiz| Starts clicked quiz for user| Works as expected |
 
 <details><summary></summary><img src="docs/userstories/user-story6.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story6-1.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story6-2.png"></details>
-
-7. As a first-time user, I would like to be able to locate the gym easily.
-
- **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Map| On index page scroll down to find the map| Shows the user the gyms location on the map| Works as expected |
-| Footer| On any page, scroll down to footer| In the footer is the physical address for the gym| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story7.png"></details>
-
-
-### Returning Users :
-
-
-8. As a returning user, I would like to be able to contact the gym easily if I need more information.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-|Navigation Bar| Click Contact Us link| Brings user to contact page| Works as expected |
-| Footer| On any page, scroll down to footer| In the footer is phone number, and email address| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story3.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story3-1.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story3-3.png"></details>
-
-9. As a returning user, I would like to be able to see the weekly schedules and the different classes offered.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Navigation Bar| Click Schedule link| Brings user to schedule page| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story8.png"></details>
-
-10. As a returning user, I would like to find the gym on different social media sites.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Footer| On any page, scroll down to footer| In the the footer there are links for various social media platforms| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story10.png"></details>
-
-
-### Site Owner :
-
-
-11. As a site owner, I want my users to be able to locate the gym easily.
-
- **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Map| On index page, scroll down to find the map| Shows the user the gyms location on the map| Works as expected |
-| Footer| On any page, scroll down to footer| In the footer is the physical address for the gym| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story7.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story5.png"></details>
-
-12. As a site owner, I want my users to be able to find the gym’s contact details and complete address easily.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Footer| On any page, scroll down to footer| In the footer is phone number, email address, and physical address| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story5.png"></details>
-
-13. As a site owner, I would like my users to be able to contact us for more information.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Navigation Bar| Click Contact Us link| Brings user to contact page| Works as expected |
-| Footer| On any page, scroll down to footer| In the footer is phone number, email address, and physical address| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story3.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story3-1.png"></details>
-<details><summary></summary><img src="docs/userstories/user-story5.png"></details>
-
-
-14. As a site owner, I would like the membership prices, schedules, and different training classes to be readily available for our users.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Navigation Bar| Click Schedule link| Brings user to schedule page| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story9.png"></details>
-
-15. As a site owner, I would like my users to know who our trainers are.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| The Trainers| On index page, scroll down to find information| User will find photo, name, and short presentation of trainers| Works as expected |
-
-<details><summary></summary><img src="docs/userstories/user-story4.png"></details>
 
 
 ## Bugs
