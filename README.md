@@ -127,30 +127,28 @@ A simple Layout with a fantasy inspired picture as a background and a squarecont
 
 ### Colours
 
+I chose antiquewhite for the container i the used a color generator to generate complimentary colors
+
 
 The specific colours I used on the site are as follows:
 
-1.	Black: black
-2.	White: #FFFFF0
-3.	Red: #c50822
+1.	Antiquewhite
+2.	#FFFBF5
+3.	green : rgba(0, 128, 0, 0.5)
+4.  red : rgba(255, 0, 0, 0.5)
 
-colors were picked
 
 ### Fonts
 
 Google fonts was used to import the Medieval Sharp font since it goes well with the medival fantasy settings for the books
 
-[Mogra]
+[MedievalSharp]('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 
 
 ### Wireframes
 
-<details><summary>Home</summary><img src="docs/wireframes/home-wireframe.png"></details>
 
-<details><summary>Schedule</summary><img src="docs/wireframes/schedule-wireframe.png"></details>
-
-<details><summary>Contact</summary><img src="docs/wireframes/contact-wireframe.png"></details>
 
 ## Technologies used :
 
@@ -165,12 +163,12 @@ Google fonts was used to import the Medieval Sharp font since it goes well with 
 - Github
 - Gitpod
 - Tiny PNG
-- Balsamiq
 - Google Fonts
 - Font awesome
 - W3C Validator
 - Jigsaw CSS Validator
 - WAVE Web Accessibility Evaluation Tool
+- Jshint
 
 ## Testing
 

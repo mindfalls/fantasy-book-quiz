@@ -5,7 +5,7 @@ const firstLaw = [
         {text: "Forbidden to eat flesh", correct: false},
         {text: "Forbidden to touch the other side",correct:true},
         {text: "Forbidden to alter reality",correct: false},
-        {text: "Forbidden to use magic on others",correct:false}
+        {text: "Forbidden to use magic on others",correct:false},
 
      ]
     },
@@ -14,7 +14,7 @@ const firstLaw = [
        {text: "Optimistic", correct: false},
        {text: "Realistic",correct: true},
        {text: "Open minded",correct: false},
-       {text: "Truthful",correct:false}
+       {text: "Truthful",correct:false},
 
     ]
    },
@@ -23,7 +23,7 @@ const firstLaw = [
       {text: "Women", correct: false},
       {text: "Money",correct: false},
       {text: "Freedom",correct: false},
-      {text: "Wine",correct:true}
+      {text: "Wine",correct:true},
 
    ]
   },
@@ -32,7 +32,7 @@ const firstLaw = [
      {text: "Logen", correct: false},
      {text: "Rudd Threetrees",correct: false},
      {text: "Dogman",correct: true},
-     {text: "Black Dow",correct:false}
+     {text: "Black Dow",correct:false},
 
   ]
  },
@@ -41,7 +41,7 @@ const firstLaw = [
     {text: "10", correct: false},
     {text: "18",correct: false},
     {text: "20",correct: false},
-    {text: "12",correct:true}
+    {text: "12",correct:true},
 
  ]
 },
@@ -53,7 +53,7 @@ const locke = [
         {text: "Catchfire", correct: true},
         {text: "Shades Hill",correct: false},
         {text: "The Cauldron",correct: false},
-        {text: "The Narrows",correct:false}
+        {text: "The Narrows",correct:false},
 
      ]
     },
@@ -62,7 +62,7 @@ const locke = [
        {text: "Locke Lamora", correct: false},
        {text: "Father Chains",correct: true},
        {text: "Barsavi",correct: false},
-       {text: "Nicovante",correct:false}
+       {text: "Nicovante",correct:false},
 
     ]
    },
@@ -71,7 +71,7 @@ const locke = [
       {text: "Leocanto Costa", correct: false},
       {text: "Tavrinn Callas",correct: false},
       {text: "Lucas Fehrwight",correct: true},
-      {text: "Jerome Valora",correct:false}
+      {text: "Jerome Valora",correct:false},
 
    ]
   },
@@ -80,7 +80,7 @@ const locke = [
      {text: "Bruce", correct: false},
      {text: "Carlos",correct: false},
      {text: "Estevan",correct: true},
-     {text: "Orrin",correct:false}
+     {text: "Orrin",correct:false},
 
   ]
  },
@@ -89,7 +89,7 @@ const locke = [
     {text: "A garrista", correct: false},
     {text: "A fence",correct: false},
     {text: "Secret Police",correct: true},
-    {text: "Name of a Tavern",correct:false}
+    {text: "Name of a Tavern",correct:false},
 
  ]
 },
