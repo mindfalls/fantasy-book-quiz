@@ -331,7 +331,9 @@ You can clone the repository by following these steps:
 
 ## Credits
 
+### Images
 
+- background image taken from Shutterstock
 
 
 
