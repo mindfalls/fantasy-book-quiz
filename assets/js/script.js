@@ -137,7 +137,9 @@ const  lotr = [
     ]
     }, 
     ];
-
+/**
+ * creating variables and listeners to start the game
+ */
 let quizOne = document.getElementById("quizone");
 let quizTwo = document.getElementById("quiztwo");
 let quizThree = document.getElementById("quizthree");
@@ -148,11 +150,17 @@ quizOne.addEventListener('click',startGame);
 quizTwo.addEventListener('click',startGameTwo);
 quizThree.addEventListener('click',startGameThree);
 
+/**
+ * variables for the questions
+ */
 let questionElement = document.getElementById("question");
 let shuffledQuestions , currentQuestionIndex;
 let answerButtonsElement = document.getElementById("answer-buttons");
 let pickquiz = document.getElementById("pick-quiz");
 
+/**
+ * function checks if there are questions after clicking next button
+ */
 nextButton.addEventListener('click', () => {
     if (shuffledQuestions.length > currentQuestionIndex +1){
     currentQuestionIndex++;
@@ -161,7 +169,9 @@ nextButton.addEventListener('click', () => {
     }
   });
 
-  // Functions to start the game and set the quiz that was clicked
+  /**
+   * Functions to start the game and set the quiz that was clicked 
+   */ 
 function startGame() {
     pickquiz.classList.add("hide");
     quizOne.classList.add("hide");
@@ -203,7 +213,9 @@ function setQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 
 }
-
+/**
+ * function creates buttons and adds answers to them
+ */
 function showQuestion(question) {
 questionElement.innerText = question.question;
 question.answers.forEach(answer => {
@@ -218,14 +230,19 @@ question.answers.forEach(answer => {
     answerButtonsElement.appendChild(button);
 });
 }
-
+/**
+ * removes buttons and next button
+ */
 function resetState() {
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild);
         nextButton.classList.add("hide");
     }
 }
-
+/**
+ * checks if selected button is correct and the changes color accordingly
+ * also disables other buttons so they cannot be chosen again 
+ */
 function selectAnswer(e) { 
         const selectedButton = e.target;
         const isCorrect = selectedButton.dataset.correct === "true";
