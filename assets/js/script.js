@@ -138,91 +138,91 @@ const  lotr = [
     }, 
     ];
 
-let quizOne = document.getElementById("quizone")
-let quizTwo = document.getElementById("quiztwo")
-let quizThree = document.getElementById("quizthree")
-let nextButton = document.getElementById("next-button")
-let intro = document.getElementById("intro")
+let quizOne = document.getElementById("quizone");
+let quizTwo = document.getElementById("quiztwo");
+let quizThree = document.getElementById("quizthree");
+let nextButton = document.getElementById("next-button");
+let intro = document.getElementById("intro");
 
-quizOne.addEventListener('click',startGame)
-quizTwo.addEventListener('click',startGameTwo)
-quizThree.addEventListener('click',startGameThree)
+quizOne.addEventListener('click',startGame);
+quizTwo.addEventListener('click',startGameTwo);
+quizThree.addEventListener('click',startGameThree);
 
-let questionElement = document.getElementById("question")
+let questionElement = document.getElementById("question");
 let shuffledQuestions , currentQuestionIndex;
-let answerButtonsElement = document.getElementById("answer-buttons")
-let pickquiz = document.getElementById("pick-quiz")
+let answerButtonsElement = document.getElementById("answer-buttons");
+let pickquiz = document.getElementById("pick-quiz");
 
 nextButton.addEventListener('click', () => {
     if (shuffledQuestions.length > currentQuestionIndex +1){
-    currentQuestionIndex++
-    setQuestion()}
-    else { finalScore()
+    currentQuestionIndex++;
+     setQuestion();}
+    else { finalScore();
     }
-  })
+  });
 
   // Functions to start the game and set the quiz that was clicked
 function startGame() {
-    pickquiz.classList.add("hide")
-    quizOne.classList.add("hide")
-    quizTwo.classList.add("hide")
-    quizThree.classList.add("hide")
-    intro.classList.add("hide")
+    pickquiz.classList.add("hide");
+    quizOne.classList.add("hide");
+    quizTwo.classList.add("hide");
+    quizThree.classList.add("hide");
+    intro.classList.add("hide");
     shuffledQuestions = lotr.sort(() => Math.random() - .5);
-    currentQuestionIndex = 0
-    setQuestion()
+    currentQuestionIndex = 0;
+    setQuestion();
 }
 
 function startGameTwo() {
-    pickquiz.classList.add("hide")
-    quizOne.classList.add("hide")
-    quizTwo.classList.add("hide")
-    quizThree.classList.add("hide")
-    intro.classList.add("hide")
+    pickquiz.classList.add("hide");
+    quizOne.classList.add("hide");
+    quizTwo.classList.add("hide");
+    quizThree.classList.add("hide");
+    intro.classList.add("hide");
     shuffledQuestions = firstLaw.sort(() => Math.random() - .5);
-    currentQuestionIndex = 0
-    setQuestion()
+    currentQuestionIndex = 0;
+    setQuestion();
 }
 
 function startGameThree() {
-    pickquiz.classList.add("hide")
-    quizOne.classList.add("hide")
-    quizTwo.classList.add("hide")
-    quizThree.classList.add("hide")
-    intro.classList.add("hide")
+    pickquiz.classList.add("hide");
+    quizOne.classList.add("hide");
+    quizTwo.classList.add("hide");
+    quizThree.classList.add("hide");
+    intro.classList.add("hide");
     shuffledQuestions = locke.sort(() => Math.random() - .5);
-    currentQuestionIndex = 0
-    setQuestion()
+    currentQuestionIndex = 0;
+    setQuestion();
 }
 
 // Sets the question in a random order
 function setQuestion() {
-    question = document.getElementById("question")
-    question.classList.remove("hide")
-    resetState()
-    showQuestion(shuffledQuestions[currentQuestionIndex])
+    let question = document.getElementById("question");
+    question.classList.remove("hide");
+    resetState();
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
 
 }
 
 function showQuestion(question) {
-questionElement.innerText = question.question
+questionElement.innerText = question.question;
 question.answers.forEach(answer => {
-    const button = document.createElement('button')
-    button.innerText = answer.text
-    button.classList.add('btn')
+    const button = document.createElement('button');
+    button.innerText = answer.text;
+    button.classList.add('btn');
 
     if (answer.correct) {
-        button.dataset.correct = answer.correct
+        button.dataset.correct = answer.correct;
     }
-    button.addEventListener('click',selectAnswer)
-    answerButtonsElement.appendChild(button)
-})
+    button.addEventListener('click',selectAnswer);
+    answerButtonsElement.appendChild(button);
+});
 }
 
 function resetState() {
     while (answerButtonsElement.firstChild) {
-        answerButtonsElement.removeChild(answerButtonsElement.firstChild)
-        nextButton.classList.add("hide")
+        answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+        nextButton.classList.add("hide");
     }
 }
 
@@ -234,7 +234,7 @@ function selectAnswer(e) {
         if (isCorrect) {
           selectedButton.classList.add("correct");
           nextButton.classList.remove("hide");
-        addScore()}
+        addScore(); }
           else {
             selectedButton.classList.add("incorrect");
             nextButton.classList.remove("hide");
@@ -243,8 +243,8 @@ function selectAnswer(e) {
                 if(button.dataset.correct === "true") {
                     button.classList.add("correct");
                 }
-                button.disabled = true
-             })
+                button.disabled = true;
+             });
         }
         
         //Increments the score
@@ -255,16 +255,15 @@ function addScore() {
     
     // sets the final score and reveals the reset button to go back to th start
 function finalScore() {
-    let finalScore = document.getElementById("final-score")
-    finalScore.innerText = ("Final Score")
-    resetState()
-    let question = document.getElementById("question")
-    question.classList.add("hide")
-    let reset = document.getElementById("reset")
-    reset.classList.remove("hide")
+    let finalScore = document.getElementById("final-score");
+    finalScore.innerText = ("Final Score");
+    resetState();
+    let question = document.getElementById("question");
+    question.classList.add("hide");
+    let reset = document.getElementById("reset");
+    reset.classList.remove("hide");
     reset.addEventListener('click', () => {
-        window.location.reload()
-    })
+        window.location.reload();
+    });
    
 }
-
