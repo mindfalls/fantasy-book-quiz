@@ -345,7 +345,9 @@ You can clone the repository by following these steps:
 ### Code
 
 The following tutorials was used as a guide for the application:
-[Link](https://www.youtube.com/watch?v=riDzcEQbX6k)
-[Link](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1856s)
+
+[Web dev simplyfied](https://www.youtube.com/watch?v=riDzcEQbX6k)
+
+[Easy tutorials](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1856s)
 
 
