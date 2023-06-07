@@ -42,6 +42,13 @@ body {
 .hide {
     display: none;
 }
+#picture {
+        width: 100%;
+        height: auto;
+        background: url("../images/404.png") no-repeat;
+        background-size: 100%;
+    };
+
 /* correct and incorrect to set the color to green o red depending on which was clicked */
 .correct {
     color:black !important;

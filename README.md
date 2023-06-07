@@ -174,7 +174,6 @@ Google fonts was used to import the Medieval Sharp font since it goes well with 
 - Gitpod
 - Tiny PNG
 - Google Fonts
-- Font awesome
 - W3C Validator
 - Jigsaw CSS Validator
 - WAVE Web Accessibility Evaluation Tool
