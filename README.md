@@ -85,22 +85,22 @@ The goal of this website is to attract individuals , who have read the books and
 #### Lord of the Rings quiz
 
 There is a short quiz of 5 questions about The Lord of the Rings Books 
-<img src="docs/features/nav-bar.png">
+<img src="docs/features/quizzes.png">
 
 
 #### The First Law quiz
 
-A short quiz about The First Law books is availebla to the user
+A short quiz about The First Law books is available to the user
 
 
-<img src="docs/features/hero.png">
+<img src="docs/features/quizzes.png">
 
 
 #### Locke Lamora quiz
 
 A short quiz about the Locke Lamora books to test the users knowledge
 
-<img src="docs/features/intro-text.png">
+<img src="docs/features/quizzes.png">
 
 
 #### Correct/Incorrect
@@ -110,18 +110,20 @@ Also clicking the wrong answer will highlight the wrong answer in red and also t
 
 
 
-<img src="docs/features/trainers.png">
+<img src="docs/features/right-wrong.png">
 
 
 #### Next Button
 
 Clicking the next button will take you to the next question, or reveal your final score
 
-<img src="docs/features/map.png"
+<img src="docs/features/right-wrong.png"
 
 #### Score Counter
 
 Answering a question will increase the score for a maximum of five
+
+<img src="docs/features/right-wrong.png"
 
 ## Design
 
@@ -337,8 +339,5 @@ You can clone the repository by following these steps:
 
 
 
-
-
-## Acknowledgements
 
 
