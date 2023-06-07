@@ -148,7 +148,11 @@ Google fonts was used to import the Medieval Sharp font since it goes well with 
 
 ### Wireframes
 
+<details><summary>start</summary><img src="docs/wireframes/wireframe-start.png"></details>
 
+<details><summary>ongoing</summary><img src="docs/wireframes/wireframe-choice.png"></details>
+
+<details><summary>finished</summary><img src="docs/wireframes/wireframe-fininsh.png"></details>
 
 ## Technologies used :
 
@@ -189,7 +193,9 @@ All tests returned no errors
 
 [Link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmindfalls.github.io%2Ffantasy-book-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+## Jshint
 
+Test in Jshint passed with no errors
 
 ## Accessibility testing
 
@@ -228,11 +234,11 @@ The website was tested on the following browsers:
 
 ### First time users
 
-1. As a first-time user, I would like to know straight away which city the gym is located.
+1. As a first-time user, I would like to have a short quiz about The lord of the rings books
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Landing page| Open home page| Information of which city gym is located on the top left corner of the page| Works as expected |
+| Lord of the rings quiz| Click Lord of the rings button| Starts Lord of the rings quiz| Works as expected |
 
 
 <details><summary></summary><img src="docs/userstories/user-story1.png"></details>
