@@ -3,8 +3,6 @@ body {
     margin: 0;
     font-family: "MedievalSharp",sans-serif;
 }
-
-
 .background {
     background-image: url("../images/background.webp");
     height: 1200px;
@@ -15,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .container {
     background-color: antiquewhite;
     height: 450px;
@@ -25,8 +22,7 @@ body {
     text-align: center;
     padding-top: 50px;
     margin-top: 50px;
- 
-}
+ }
 #answer-buttons {
     display: flex;
     justify-content: center;
@@ -45,12 +41,11 @@ body {
 .hide {
     display: none;
 }
-/* correct and incorrect to set the color to grren o red depending on which was clicked */
+/* correct and incorrect to set the color to green o red depending on which was clicked */
 .correct {
     color:black !important;
     background-color: rgba(0, 128, 0, 0.5) !important
 }
-
 .incorrect {
     color:black !important;
     background-color: rgba(255, 0, 0, 0.5) !important;
