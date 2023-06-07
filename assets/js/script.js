@@ -168,7 +168,7 @@ function startGame() {
     quizTwo.classList.add("hide");
     quizThree.classList.add("hide");
     intro.classList.add("hide");
-    shuffledQuestions = lotr.sort(() => Math.random() - .5);
+    shuffledQuestions = lotr.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     setQuestion();
 }
@@ -179,7 +179,7 @@ function startGameTwo() {
     quizTwo.classList.add("hide");
     quizThree.classList.add("hide");
     intro.classList.add("hide");
-    shuffledQuestions = firstLaw.sort(() => Math.random() - .5);
+    shuffledQuestions = firstLaw.sort(() => Math.random() -0.5);
     currentQuestionIndex = 0;
     setQuestion();
 }
@@ -190,7 +190,7 @@ function startGameThree() {
     quizTwo.classList.add("hide");
     quizThree.classList.add("hide");
     intro.classList.add("hide");
-    shuffledQuestions = locke.sort(() => Math.random() - .5);
+    shuffledQuestions = locke.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     setQuestion();
 }
