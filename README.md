@@ -85,6 +85,7 @@ The goal of this website is to attract individuals , who have read the books and
 #### Lord of the Rings quiz
 
 There is a short quiz of 5 questions about The Lord of the Rings Books 
+
 <img src="docs/features/quizzes.png">
 
 
@@ -107,7 +108,6 @@ A short quiz about the Locke Lamora books to test the users knowledge
 
 Clicking the right answer will highlight the answer in green and reveal a next button.
 Also clicking the wrong answer will highlight the wrong answer in red and also the right answer in green.
-
 
 
 <img src="docs/features/right-wrong.png">
@@ -135,7 +135,7 @@ made a very simple 404 page
 
 ### Layout
 
-A simple Layout with a fantasy inspired picture as a background and a squarecontainer to hold the quiz
+A simple Layout with a fantasy inspired picture as a background and a square container to hold the quiz
 
 ### Colours
 
@@ -346,7 +346,7 @@ You can clone the repository by following these steps:
 
 The following tutorials was used as a guide for the application:
 
-[Web dev simplyfied](https://www.youtube.com/watch?v=riDzcEQbX6k)
+[Web dev simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
 
 [Easy tutorials](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1856s)
 
