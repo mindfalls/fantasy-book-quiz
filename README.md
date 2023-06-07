@@ -125,6 +125,12 @@ Answering a question will increase the score for a maximum of five
 
 <img src="docs/features/right-wrong.png"
 
+#### 404
+
+made a very simple 404 page
+
+<img src="docs/features/404.png"
+
 ## Design
 
 ### Layout
@@ -336,7 +342,10 @@ You can clone the repository by following these steps:
 
 - background image taken from Shutterstock
 
+### Code
 
-
+The following tutorials was used as a guide for the application:
+[Link](https://www.youtube.com/watch?v=riDzcEQbX6k)
+[Link](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1856s)
 
 
